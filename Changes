@@ -1,5 +1,7 @@
 {{$NEXT}}
 
+0.350     2013-07-04 00:41:35 Europe/Berlin
+
     - Fix dist.ini that will be created.
 
 0.300     2013-07-04 00:38:26 Europe/Berlin
