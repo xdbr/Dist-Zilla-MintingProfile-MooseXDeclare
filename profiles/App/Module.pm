@@ -37,7 +37,7 @@ class {{$name}} extends MooseX::App::Cmd with MooseX::Log::Log4perl {
 
 
 
-##### ##### ##### ##### ##### Cut here ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
+##### ##### ##### ##### ##### Cut here ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### #####
 
 use true;
 use MooseX::Declare;
@@ -45,7 +45,7 @@ use MooseX::Declare;
 #  PODNAME: {{ $name }}::Command
 # ABSTRACT: Command class which all commands will inherit from.
 
-class {{ $name }}::Command extends (MooseX::App::Cmd::Command, {{ $name }}) 
+class {{ $name }}::Command extends (MooseX::App::Cmd::Command, {{ $name }})
  with MooseX::Getopt::Dashes with MooseX::Log::Log4perl {
     use metaclass 'MooseX::MetaDescription::Meta::Class'; # TODO: Offer description-tag on attributes
     use MooseX::Types::Moose -all;
@@ -65,7 +65,7 @@ class {{ $name }}::Command extends (MooseX::App::Cmd::Command, {{ $name }})
 
 
 
-##### ##### ##### ##### ##### Cut here ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### 
+##### ##### ##### ##### ##### Cut here ##### ##### ##### ##### ##### ##### ##### ##### ##### ##### #####
 
 package {{ $name }}::Types {
     use Moose::Util::TypeConstraints;
@@ -76,7 +76,7 @@ package {{ $name }}::Types {
 
     #  PODNAME: {{ $name }}::Types
     # ABSTRACT: Types library for {{ $name }}::Types
-    
+
     # use Module::Util;
     #
     # subtype VersionString,

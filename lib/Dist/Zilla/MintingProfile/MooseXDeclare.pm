@@ -5,7 +5,7 @@ package Dist::Zilla::MintingProfile::MooseXDeclare;
 use Moose;
 use namespace::autoclean;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';
- 
+
 __PACKAGE__->meta->make_immutable;
 
 =begin wikidoc
