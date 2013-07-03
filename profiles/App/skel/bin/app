@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #  PODNAME: app
-# ABSTRACT: Executable to {{$name}}
+# ABSTRACT: Executable to Your::New::Module
 
 use v5.14;
 use strict;
@@ -11,8 +11,8 @@ use FindBin;
 
 use lib "$FindBin::Bin/../lib";
 
-use {{$name}};
+use Your::New::Module;
 
-my $app = {{$name}}->new;
+my $app = Your::New::Module->new;
 
 $app->run;
