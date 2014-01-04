@@ -1,5 +1,7 @@
 {{$NEXT}}
 
+  - Merge Pull request sergeyromanov:patch-1
+
 0.350     2013-07-04 00:41:35 Europe/Berlin
 
     - Fix dist.ini that will be created.
